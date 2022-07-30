@@ -1,0 +1,15 @@
+127.0.0.1 - - [24/Jun/2022:12:16:53 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [24/Jun/2022:12:26:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:26:54 +0530] "GET /Shopping/Home.html HTTP/1.1" 200 2033
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:26:54 +0530] "GET /Shopping/Styles/Footer.css HTTP/1.1" 200 1217
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:26:54 +0530] "GET /Shopping/Styles/Home.css HTTP/1.1" 200 1758
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:26:54 +0530] "GET /Shopping/Pic/logo.png HTTP/1.1" 200 3187
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:26:54 +0530] "GET /Shopping/Pic/back1.jpg HTTP/1.1" 200 248740
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:26:55 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:27:34 +0530] "GET /Shopping/Login.jsp HTTP/1.1" 200 3517
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:27:34 +0530] "GET /Shopping/Styles/Login.css HTTP/1.1" 200 3736
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:27:34 +0530] "GET /Shopping/Styles/Header.css HTTP/1.1" 200 1232
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:27:42 +0530] "GET /Shopping/Register.jsp HTTP/1.1" 200 4465
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:27:42 +0530] "GET /Shopping/Scripts/Register.js HTTP/1.1" 200 309
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:27:42 +0530] "GET /Shopping/Styles/Register.css HTTP/1.1" 200 3190
+0:0:0:0:0:0:0:1 - - [24/Jun/2022:12:27:42 +0530] "GET /Shopping/Scripts/Deactivate.js HTTP/1.1" 200 207
