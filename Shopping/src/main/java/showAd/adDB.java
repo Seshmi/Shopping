@@ -14,7 +14,7 @@ public class adDB {
 		try {
 		Class.forName("com.mysql.jdbc.Driver");
 		String url="jdbc:mysql://localhost:3306/grocery?useSSL=false";
-		Connection con=DriverManager.getConnection(url,"root","Sesh1998*");
+		Connection con=DriverManager.getConnection(url,"root","root1234");
 		
 		Statement st =con.createStatement();
 		ResultSet rs=st.executeQuery("select * from advertisement where  email='"+mail+"' ");

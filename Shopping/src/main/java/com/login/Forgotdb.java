@@ -14,7 +14,7 @@ public class Forgotdb {
 		int f=0;
 		Class.forName("com.mysql.jdbc.Driver");
 		
-		try (Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Grocery", "root", "Sesh1998*");
+		try (Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Grocery", "root", "root1234");
 				PreparedStatement preparedStatement=connection
 						.prepareStatement("UPDATE register SET password=? WHERE email=?")){
 							preparedStatement.setString(2, loginBeen.getemail());

@@ -19,7 +19,7 @@ public class registerdatabase {
 
         Boolean result=false;
 		try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/grocery", "root", "Sesh1998*");
+            .getConnection("jdbc:mysql://localhost:3306/grocery", "root", "root1234");
 
             //Create a statement using connection object
             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {

@@ -13,7 +13,7 @@ public class Deactivatedb {
 			int f=0;
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			try (Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Grocery", "root", "Sesh1998*");
+			try (Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Grocery", "root", "root1234");
 					PreparedStatement preparedStatement=connection
 							.prepareStatement("DELETE FROM register WHERE email=? and password=? ")){
 								preparedStatement.setString(1, loginBeen.getemail());
